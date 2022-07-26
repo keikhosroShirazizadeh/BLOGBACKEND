@@ -1,0 +1,19 @@
+{
+  "name": "myblog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "fastify": "^3.27.4",
+    "fastify-swagger": "^5.1.0",
+    "mongodb": "^4.2.2",
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
