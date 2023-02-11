@@ -9,7 +9,7 @@ const app=fastify({
     logger:{
         disableRequestLogging:true
     }
-})
+})  
 app.addHook('onRequest',(req,reply,done)=>{
     req.log.info({
         url:req.raw.url,id:req.id},'recieved request')

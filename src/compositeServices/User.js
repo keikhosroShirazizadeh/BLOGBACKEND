@@ -20,4 +20,9 @@ const createPost=async(req,reply)=>{
 
 }
 
+const updatePost=async(req,reply)=>{    
+    const 
+
+}
+
 export default{createPost}
